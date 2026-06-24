@@ -1,0 +1,15 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+body {
+	margin: 0;
+}
+
+button,
+a,
+input,
+select,
+textarea {
+	letter-spacing: 0;
+}
